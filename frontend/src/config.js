@@ -1,6 +1,6 @@
 // config.js
 const config = {
-  backendUrl: 'http://localhost:3000', // Altere para a URL do seu backend
+  backendUrl: process.env.REACT_APP_BACKEND_URL,
   endpoints: {
     files: '/api/files',
     users: '/api/users'
